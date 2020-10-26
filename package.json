@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "NodeJS server for handling VueJS requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Haneef Hamzah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parse": "^0.1.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.9",
+    "passport": "^0.4.1",
+    "uuid": "^8.3.1"
+  }
+}
